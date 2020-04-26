@@ -21,7 +21,7 @@ function checkUserAge(userInfo){
 }
 
 //This implementation removes the need for writing HigherOrderFuncwithArgs(userInfo, test1, test2...)
-	
+
 function createValidatorOnAssignation(...tests){
 	return function(userInfo){
 		for(var i = 0; i < tests.length; i++){
